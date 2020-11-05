@@ -28,3 +28,37 @@ header {
     height: 8em;
 
 }
+
+main {
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: hsl(120, 60%, 80%);
+    flex-basis: 30%;
+    order: 3;
+    flex-grow: 1;
+    
+
+}
+
+main>* {
+    flex-basis: 45%;
+    padding: 0.5em;
+    border: 1px solid #f0f;
+}
+
+section {
+    order: 4;
+    
+}
+
+aside {
+    order: 2;
+
+}
+
+footer {
+    order: 5;
+}
