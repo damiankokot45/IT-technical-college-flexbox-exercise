@@ -51,14 +51,26 @@ main>* {
 
 section {
     order: 4;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: hsl(50, 60%, 80%);
+    flex-basis: 30%;
+   
     
 }
 
 aside {
     order: 2;
+    display: flex;
+    align-items: center;
+    background-color: hsl(200, 60%, 80%);
+    flex-basis: 25%;
+
 
 }
 
 footer {
     order: 5;
+    background-color: hsl(300, 60%, 80%);
+    flex-basis: 100%;
 }
